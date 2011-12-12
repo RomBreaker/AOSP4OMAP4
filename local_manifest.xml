@@ -17,7 +17,6 @@
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="ics" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="github" revision="gingerbread" />
-  <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" remote="github" revision="gingerbread" />
   <remove-project name="platform/system/vold" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="ics" />
 
@@ -41,4 +40,6 @@
   
   <project path="packages/apps/AndroidTerm" name="tpruvot/android_packages_apps_AndroidTerm" remote="github" revision="ics" />
   <project path="external/busybox" name="MotoMagic/android_external_busybox" remote="github" revision="ics" />
+  <project path="packages/apps/Usb" name="MotoMagic/android_packages_apps_Usb" remote="github" revision="ics" />
+  
 </manifest>

@@ -25,10 +25,10 @@
   <project path="device/motorola/common" name="MotoMagic/android_device_motorola_common" remote="github" revision="ics" />
   <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" remote="github" revision="ics" />
   <project path="vendor/motorola/solana" name="Hashcode/android_vendor_motorola_solana" remote="github" revision="ics" />
-  <project path="vendor/motorola/spyder" name="droidth3ory/android_vendor_motorola_spyder" remote="github" revision="ics" />
-  <project path="device/motorola/spyder" name="droidth3ory/android_device_motorola_spyder" remote="github" revision="ics" />
-  <project path="device/motorola/targa" name="dhacker29/android_device_motorola_targa" remote="github" revision="ics" />
-  <project path="vendor/motorola/targa" name="dhacker29/proprietary_vendor_motorola_targa" remote="github" revision="ics" />
+  <project path="vendor/motorola/spyder" name="ICSTH3ORY/android_vendor_motorola_spyder" remote="github" revision="ics" />
+  <project path="device/motorola/spyder" name="ICSTH3ORY/android_device_motorola_spyder" remote="github" revision="ics" />
+  <project path="device/motorola/targa" name="ICSTH3ORY/android_device_motorola_targa" remote="github" revision="ics" />
+  <project path="vendor/motorola/targa" name="ICSTH3ORY/proprietary_vendor_motorola_targa" remote="github" revision="ics" />
   
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="Hashcode/android_frameworks_base" remote="github" revision="ics" />

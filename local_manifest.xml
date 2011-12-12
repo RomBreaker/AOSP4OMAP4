@@ -28,6 +28,10 @@
   <project path="device/motorola/targa" name="ICSTH3ORY/android_device_motorola_targa" remote="github" revision="ics" />
   <project path="vendor/motorola/targa" name="ICSTH3ORY/proprietary_vendor_motorola_targa" remote="github" revision="ics" />
   
+  <remove-project name="platform/build" />
+  <project path="build" name="ICSTH3ORY/build" remote="github" revision="ics">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="Hashcode/android_frameworks_base" remote="github" revision="ics" />
   <remove-project name="platform/hardware/ti/omap4xxx" />

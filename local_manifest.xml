@@ -2,45 +2,44 @@
 <manifest>
 
   <remote  name="github"
-           fetch="git://github.com/" 
-           revision="ics" />
+           fetch="git://github.com/" />
 
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
            review="review.omapzoom.org" />
 
-  <project path="external/bash" name="CyanogenMod/android_external_bash" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" />
-  <project path="external/nano" name="CyanogenMod/android_external_nano" />
-  <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="external/vim" name="CyanogenMod/android_external_vim" revision="master" />
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" />
-  <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" revision="gingerbread" />
-  <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" revision="gingerbread" />
-  <project path="system/su" name="CyanogenMod/android_system_su" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="ics" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="ics" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="ics" />
+  <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" revision="ics" />
+  <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" remote="github" revision="ics" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="ics" />
+  <project path="external/vim" name="CyanogenMod/android_external_vim" remote="github" revision="master" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="ics" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
+  <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="github" revision="gingerbread" />
+  <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" remote="github" revision="gingerbread" />
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="ics" />
   <remove-project name="platform/system/vold" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="ics" />
 
-  <project path="device/motorola/common" name="MotoMagic/android_device_motorola_common" />
-  <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" />
-  <project path="vendor/motorola/solana" name="Hashcode/android_vendor_motorola_solana" />
-  <project path="vendor/motorola/spyder" name="droidth3ory/android_vendor_motorola_spyder" />
-  <project path="device/motorola/spyder" name="droidth3ory/android_device_motorola_spyder" />
-  <project path="device/motorola/targa" name="dhacker29/android_device_motorola_targa" />
-  <project path="vendor/motorola/targa" name="dhacker29/proprietary_vendor_motorola_targa" />
+  <project path="device/motorola/common" name="MotoMagic/android_device_motorola_common" remote="github" revision="ics" />
+  <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" remote="github" revision="ics" />
+  <project path="vendor/motorola/solana" name="Hashcode/android_vendor_motorola_solana" remote="github" revision="ics" />
+  <project path="vendor/motorola/spyder" name="droidth3ory/android_vendor_motorola_spyder" remote="github" revision="ics" />
+  <project path="device/motorola/spyder" name="droidth3ory/android_device_motorola_spyder" remote="github" revision="ics" />
+  <project path="device/motorola/targa" name="dhacker29/android_device_motorola_targa" remote="github" revision="ics" />
+  <project path="vendor/motorola/targa" name="dhacker29/proprietary_vendor_motorola_targa" remote="github" revision="ics" />
   
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="Hashcode/android_frameworks_base" />
+  <project path="frameworks/base" name="Hashcode/android_frameworks_base" remote="github" revision="ics" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
-  <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_omap4xxx" />
-  <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" />
+  <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_omap4xxx" remote="github" revision="ics" />
+  <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" remote="github" revision="ics" />
   <remove-project name="platform/hardware/libhardware_legacy" />
-  <project path="hardware/libhardware_legacy" name="Hashcode/android_hardware_libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="Hashcode/android_hardware_libhardware_legacy" remote="github" revision="ics" />
   <remove-project name="platform/system/core" />
-  <project path="system/core" name="Hashcode/android_system_core" />
+  <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="ics" />
   
-  <project path="packages/apps/AndroidTerm" name="tpruvot/android_packages_apps_AndroidTerm" />
+  <project path="packages/apps/AndroidTerm" name="tpruvot/android_packages_apps_AndroidTerm" remote="github" revision="ics" />
 </manifest>

@@ -16,7 +16,7 @@ To initialize your local repository using the AOSP manifest, use a command like 
 
     repo init -u https://android.googlesource.com/platform/manifest -b android-4.0.1_r1.2
     
-    Download: https://github.com/ICSTH3ORY/AOSP4OMAP4/local_manifest.xml
+    Download: https://github.com/ICSTH3ORY/AOSP4OMAP4/blob/master/local_manifest.xml
 		and place it in ~/Android/.repo/local_manifest.xml (or ~/'name you chose'/.repo)
 
 Then to sync up:

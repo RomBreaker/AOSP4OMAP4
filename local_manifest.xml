@@ -9,7 +9,6 @@
            review="review.omapzoom.org" />
 
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="ics" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="ics" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="ics" />
   <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" revision="ics" />
   <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" remote="github" revision="ics" />
@@ -41,4 +40,5 @@
   <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="ics" />
   
   <project path="packages/apps/AndroidTerm" name="tpruvot/android_packages_apps_AndroidTerm" remote="github" revision="ics" />
+  <project path="external/busybox" name="MotoMagic/android_external_busybox" remote="github" revision="ics" />
 </manifest>

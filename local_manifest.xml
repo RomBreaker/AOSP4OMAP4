@@ -17,6 +17,9 @@
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="ics" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="github" revision="gingerbread" />
+  <remove-project name="platform/system/extras" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="ics" />
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="ics" />
   <remove-project name="platform/system/vold" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="ics" />
 

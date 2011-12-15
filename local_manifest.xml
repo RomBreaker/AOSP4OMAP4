@@ -32,6 +32,7 @@
   <project path="device/motorola/targa" name="ICSTH3ORY/android_device_motorola_targa" remote="github" revision="ics" />
   <project path="vendor/motorola/targa" name="ICSTH3ORY/proprietary_vendor_motorola_targa" remote="github" revision="ics" />
   <project path="vendor/google" name="ICSTH3ORY/proprietary_vendor_google" remote="github" revision="ics" />
+  <project path="vendor/google" name="ICSTH3ORY/proprietary_vendor_verizon" remote="github" revision="ics" />
   
   <remove-project name="platform/build" />
   <project path="build" name="ICSTH3ORY/build" remote="github" revision="ics">

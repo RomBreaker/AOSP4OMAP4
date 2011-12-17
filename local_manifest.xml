@@ -13,6 +13,8 @@
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="ics" />
   <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" revision="ics" />
   <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" remote="github" revision="ics" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="ics" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="ics" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" remote="github" revision="master" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="ics" />
@@ -43,8 +45,6 @@
   <remove-project name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_omap4xxx" remote="github" revision="ics" />
   <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" remote="github" revision="ics" />
-  <remove-project name="platform/hardware/libhardware_legacy" />
-  <project path="hardware/libhardware_legacy" name="Hashcode/android_hardware_libhardware_legacy" remote="github" revision="ics" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="ics" />
   

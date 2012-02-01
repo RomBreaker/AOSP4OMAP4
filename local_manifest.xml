@@ -43,7 +43,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="Hashcode/android_frameworks_base" remote="github" revision="ics" />
+  <project path="frameworks/base" name="dhacker29/android_frameworks_base" remote="github" revision="ics" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_omap4xxx" remote="github" revision="ics-hybrid" />
   <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" remote="github" revision="ics" />

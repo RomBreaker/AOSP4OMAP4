@@ -21,7 +21,7 @@
   <remove-project name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="github" revision="ics" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
-  <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="github" revision="gingerbread" />
+  <project path="packages/apps/FileManager" name="STS-DEV-TEAM/android_packages_apps_FileManager" remote="github" revision="ics" />
   <remove-project name="platform/system/extras" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="ics" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="ics" />
@@ -31,29 +31,31 @@
   <project path="device/motorola/common" name="MotoMagic/android_device_moto_hijack" remote="github" revision="ics" />
   <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" remote="github" revision="ics" />
   <project path="vendor/motorola/solana" name="Hashcode/android_vendor_motorola_solana" remote="github" revision="ics" />
-  <project path="vendor/motorola/spyder" name="ICSTH3ORY/android_vendor_motorola_spyder" remote="github" revision="ics" />
-  <project path="device/motorola/spyder" name="ICSTH3ORY/android_device_motorola_spyder" remote="github" revision="ics" />
-  <project path="device/motorola/targa" name="ICSTH3ORY/android_device_motorola_targa" remote="github" revision="ics" />
-  <project path="vendor/motorola/targa" name="ICSTH3ORY/proprietary_vendor_motorola_targa" remote="github" revision="ics" />
-  <project path="vendor/google" name="ICSTH3ORY/proprietary_vendor_google" remote="github" revision="ics" />
-  <project path="vendor/verizon" name="ICSTH3ORY/proprietary_vendor_verizon" remote="github" revision="ics" />
+  <project path="vendor/motorola/spyder" name="STS-DEV-TEAM/android_vendor_motorola_spyder" remote="github" revision="ics" />
+  <project path="device/motorola/spyder" name="STS-DEV-TEAM/android_device_motorola_spyder" remote="github" revision="ics-aosp" />
+  <project path="device/motorola/targa" name="STS-DEV-TEAM/android_device_motorola_targa" remote="github" revision="ics-aosp" />
+  <project path="vendor/motorola/targa" name="STS-DEV-TEAM/proprietary_vendor_motorola_targa" remote="github" revision="ics" />
+  <project path="vendor/google" name="STS-DEV-TEAM/proprietary_vendor_google" remote="github" revision="ics" />
+  <project path="vendor/verizon" name="STS-DEV-TEAM/proprietary_vendor_verizon" remote="github" revision="ics" />
   
   <remove-project name="platform/build" />
-  <project path="build" name="ICSTH3ORY/build" remote="github" revision="ics">
+  <project path="build" name="STS-DEV-TEAM/build" remote="github" revision="ics">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="Hashcode/android_frameworks_base" remote="github" revision="ics" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
-  <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_omap4xxx" remote="github" revision="ics" />
+  <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_omap4xxx" remote="github" revision="ics-hybrid" />
   <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" remote="github" revision="ics" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="ics" />
+  <remove-project name="platform/packages/apps/camera" />
+  <project path="hardware/ti/camera" name="Hashcode/android_hardware_ti_camera" remote="github" revision="ics-hybrid-solana" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/ContactsProvider" name="Hashcode/android_packages_providers_ContactsProvider" remote="github" revision="ics" />
   
   <project path="packages/apps/AndroidTerm" name="tpruvot/android_packages_apps_AndroidTerm" remote="github" revision="ics" />
   <project path="external/busybox" name="MotoMagic/android_external_busybox" remote="github" revision="ics" />
-  <project path="packages/apps/Usb" name="MotoMagic/android_packages_apps_Usb" remote="github" revision="ics" />
+  <project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" remote="github" revision="ics" />
   
 </manifest>

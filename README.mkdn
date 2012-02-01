@@ -17,7 +17,7 @@ To initialize your local repository using the AOSP manifest, use commands like t
 
     repo init -u https://android.googlesource.com/platform/manifest -b android-4.0.3_r1
     
-    curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/ICSTH3ORY/AOSP4OMAP4/master/local_manifest.xml
+    curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/STS-DEV-TEAM/AOSP4OMAP4/master/local_manifest.xml
 
     	( or Download: https://github.com/ICSTH3ORY/AOSP4OMAP4/blob/master/local_manifest.xml
 		and place it in ~/Android/.repo/local_manifest.xml (or ~/'name you chose'/.repo)

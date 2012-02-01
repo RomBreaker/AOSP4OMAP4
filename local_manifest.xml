@@ -21,7 +21,7 @@
   <remove-project name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="github" revision="ics" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
-  <project path="packages/apps/FileManager" name="STS-DEV-TEAM/android_packages_apps_FileManager" remote="github" revision="ics" />
+  <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" remote="github" revision="ics" />
   <remove-project name="platform/system/extras" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="ics" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="ics" />

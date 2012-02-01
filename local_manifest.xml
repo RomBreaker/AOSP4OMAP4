@@ -49,10 +49,14 @@
   <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" remote="github" revision="ics" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="ics" />
+  <project path="hardware/ti/syslink" name="Hashcode/android_hardware_ti_syslink" revision="refs/heads/ics" />
+  <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler" remote="omapzoom" revision="refs/heads/memmgr_1.0" />
   <remove-project name="platform/packages/apps/Camera" />
   <project path="hardware/ti/camera" name="Hashcode/android_hardware_ti_camera" remote="github" revision="ics-hybrid-solana" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/ContactsProvider" name="Hashcode/android_packages_providers_ContactsProvider" remote="github" revision="ics" />
+  <remove-project name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="Hashcode/android_packages_apps_Phone" />
   
   <project path="packages/apps/AndroidTerm" name="tpruvot/android_packages_apps_AndroidTerm" remote="github" revision="ics" />
   <project path="external/busybox" name="MotoMagic/android_external_busybox" remote="github" revision="ics" />

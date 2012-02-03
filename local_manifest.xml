@@ -56,8 +56,8 @@
   <project path="hardware/ti/camera" name="Hashcode/android_hardware_ti_camera" remote="github" revision="ics-hybrid-solana" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/ContactsProvider" name="Hashcode/android_packages_providers_ContactsProvider" remote="github" revision="ics" />
-  <remove-project name="platform/packages/apps/Phone" />
-  <project path="packages/apps/Phone" name="Hashcode/android_packages_apps_Phone" remote="github" revision="ics" />
+  <!-- <remove-project name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="Hashcode/android_packages_apps_Phone" remote="github" revision="ics" /> -->
   
   <project path="packages/apps/AndroidTerm" name="tpruvot/android_packages_apps_AndroidTerm" remote="github" revision="ics" />
   <project path="external/busybox" name="MotoMagic/android_external_busybox" remote="github" revision="ics" />

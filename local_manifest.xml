@@ -44,7 +44,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="STS-Dev-Team/platform_frameworks_base" remote="github" revision="refs/tags/android-4.0.3_r1" />
+  <project path="frameworks/base" name="STS-Dev-Team/platform_frameworks_base" remote="github" revision="ics" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="STS-Dev-Team/platform_system_core" remote="github" revision="ics" />
   <remove-project name="platform/hardware/ti/omap4xxx" />

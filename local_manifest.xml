@@ -27,7 +27,7 @@
   <remove-project name="platform/system/vold" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="ics" />
   <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="STS-Dev-Team/platform_packages_apps_Settings" remote="github" revision="ics" />
+  <project path="packages/apps/Settings" name="STS-Dev-Team/platform_packages_apps_Settings" remote="github" revision="refs/tags/android-4.0.3_r1" />
 
   <project path="device/motorola/common" name="MotoMagic/android_device_moto_hijack" remote="github" revision="ics" />
   <!-- <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" remote="github" revision="ics" />

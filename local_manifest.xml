@@ -26,6 +26,7 @@
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="ics" />
   <remove-project name="platform/system/vold" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="ics" />
+  <project path="external/hostapd" name="CyanogenMod/android_external_hostapd" remote="github" revision="gingerbread" />
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="STS-Dev-Team/platform_packages_apps_settings" remote="github" revision="ics" />
 

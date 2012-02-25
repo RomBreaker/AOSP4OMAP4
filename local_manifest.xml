@@ -10,6 +10,7 @@
 
   <!-- AOSP removals -->
   <remove-project name="platform/build" />
+  <remove-project name="platform/external/icu4c" />
   <remove-project name="platform/external/wpa_supplicant_6" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/hardware/libhardware_legacy" />
@@ -28,6 +29,7 @@
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="ics" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="ics" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="ics" />
+  <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" revision="ics" remote="github" />
   <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" remote="github" revision="ics" />
   
   <!-- CM additions -->

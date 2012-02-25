@@ -53,7 +53,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_omap4xxx" remote="github" revision="ics-hybrid" />
-  <project path="packages/apps/Launcher2" name="STS-Dev-Team/packages_apps_Launcher2" remote="github" revision="ics" />
+  <project path="packages/apps/Launcher2" name="STS-Dev-Team/platform_packages_apps_Launcher2" remote="github" revision="ics" />
   <project path="packages/apps/Settings" name="STS-Dev-Team/platform_packages_apps_settings" remote="github" revision="ics" />
   <project path="frameworks/base" name="STS-Dev-Team/platform_frameworks_base" remote="github" revision="ics" />
   <project path="system/core" name="STS-Dev-Team/platform_system_core" remote="github" revision="ics" />

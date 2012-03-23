@@ -43,7 +43,6 @@
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
 
   <!-- other additions -->
-  <project path="device/motorola/common" name="MotoMagic/android_device_moto_hijack" remote="github" revision="ics" />
   <project path="external/busybox" name="MotoMagic/android_external_busybox" remote="github" revision="ics" />
   <project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" remote="github" revision="ics" />
   <project path="packages/apps/AndroidTerm" name="tpruvot/android_packages_apps_AndroidTerm" remote="github" revision="ics" />
@@ -66,10 +65,7 @@
   <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" remote="github" revision="ics" />
   <project path="device/motorola/targa" name="STS-Dev-Team/android_device_motorola_targa" remote="github" revision="ics-aosp" />
   <project path="vendor/motorola/targa" name="STS-Dev-Team/android_vendor_motorola_targa" remote="github" revision="ics" />
-  <project path="device/motorola/solana" name="STS-Dev-Team/android_device_motorola_solana" remote="github" revision="ics" />
-  <project path="vendor/motorola/solana" name="STS-Dev-Team/android_vendor_motorola_solana" remote="github" revision="ics" />
   <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" remote="github" revision="ics" />
-  <!-- <project path="vendor/google" name="STS-Dev-Team/proprietary_vendor_google" remote="github" revision="ics" />  -->
   <project path="hardware/ti/camera" name="Hashcode/android_hardware_ti_camera" remote="github" revision="ics-hybrid-solana" />
   <project path="hardware/ti/syslink" name="Hashcode/android_hardware_ti_syslink" remote="github" revision="ics" />
   <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler" remote="omapzoom" revision="refs/heads/memmgr_1.0" />
